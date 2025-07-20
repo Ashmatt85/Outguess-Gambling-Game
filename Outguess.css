@@ -1,0 +1,102 @@
+/*background for game*/ 
+
+#body{  padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background:
+      radial-gradient(circle, rgb(17, 17, 17) 4px, transparent 5px),
+      radial-gradient(circle, rgb(226, 177, 14) 4px, transparent 5px);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
+
+#dots{  
+    position: relative;
+    background-color: rgb(102, 100, 100);
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 20px 20px 10px rgb(54, 54, 54);
+    border-radius: 80px; 
+    margin-left:15%;
+    height:auto;
+    margin-top: 2%;
+    
+}
+
+#head{
+    background: linear-gradient(rgba(238, 238, 10, 0.863), rgb(216, 100, 5),black);
+    -web-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    display: inline-block;
+    font-size: 70px;
+    font-family: "Akronim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20%;
+}
+
+#visually-hidden{
+            font-family: "Chicle", serif;
+            font-weight: 100;
+            font-style: normal;
+            color:rgb(226, 177, 14);
+            position:relative;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 33px;
+}
+
+#win{
+    font-size:25px;
+}
+
+#visually{
+        font-family: "Chicle", serif;
+        font-weight: 100;
+        font-style: normal;
+        color:rgb(226, 177, 14);
+        position: relative;
+        margin-right: 14%;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        font-size: 33px;
+}
+
+#percentage{
+    font-family: "Chicle", serif;
+    font-weight: 50;
+    font-style: normal;
+    color:rgb(226, 177, 14);
+    flex-direction: column;
+    margin-right: 28%;
+    font-size: 30px;
+    margin-left: 3%;
+    
+}
+
+#me{ 
+    position: absolute;
+    top: 80%;
+    left:1%;
+    transform: translateY(-50%);
+    bottom: 0%;
+    width:185px;
+    height:350px;
+}
+
+#Jazmin{
+    position: sticky;
+    top: 80%;
+    right: 2%;
+    /*transform: translateY(-50%);*/
+    bottom: 0%;
+    width:185px;
+    height:150px;
+}
